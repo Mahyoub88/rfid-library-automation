@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 650" width="1200" height="650" fill="#1d2733" role="img" aria-label="Barcode desk vs RFID pad">
+<title>Barcode desk vs RFID pad</title>
+<defs><style>text{font-family:'Segoe UI', Helvetica, Arial, 'Liberation Sans', sans-serif}</style></defs>
+<rect width="1200" height="650" fill="#ffffff"/>
+<rect x="0" y="0" width="1200" height="6" fill="#1f3a5f"/>
+<text x="40" y="52" font-size="26" font-weight="700">Barcode desk vs RFID pad</text>
+<text x="40" y="80" font-size="15" fill="#5b6b7c">Same check-out task: five books, one patron</text>
+
+<rect x="40" y="120" width="540" height="490" rx="12" fill="#f6f8fb" stroke="#5b6b7c" stroke-width="1.6"/>
+<text x="64" y="160" font-size="19" fill="#5b6b7c" font-weight="700">Barcode + magnetic strip</text>
+<g fill="#ffffff" stroke="#5b6b7c" stroke-width="1.2">
+<rect x="64" y="200" width="492" height="50" rx="8"/>
+<rect x="64" y="266" width="492" height="50" rx="8"/>
+<rect x="64" y="332" width="492" height="50" rx="8"/>
+<rect x="64" y="398" width="492" height="50" rx="8"/>
+</g>
+<rect x="64" y="464" width="492" height="50" rx="8" fill="#fbe9e7" stroke="#b3261e" stroke-width="1.2"/>
+<g fill="#5b6b7c">
+<circle cx="90" cy="225" r="12"/><circle cx="90" cy="291" r="12"/><circle cx="90" cy="357" r="12"/><circle cx="90" cy="423" r="12"/>
+</g>
+<circle cx="90" cy="489" r="12" fill="#b3261e"/>
+
+<rect x="620" y="120" width="540" height="490" rx="12" fill="#e3f3f4" stroke="#0b7a83" stroke-width="1.6"/>
+<text x="644" y="160" font-size="19" fill="#0b7a83" font-weight="700">RFID (ISO/IEC 15693)</text>
+<g fill="#ffffff" stroke="#0b7a83" stroke-width="1.2">
+<rect x="644" y="200" width="492" height="50" rx="8"/>
+<rect x="644" y="266" width="492" height="50" rx="8"/>
+<rect x="644" y="332" width="492" height="50" rx="8"/>
+<rect x="644" y="398" width="492" height="50" rx="8"/>
+<rect x="644" y="464" width="492" height="50" rx="8"/>
+</g>
+<g fill="#0b7a83">
+<circle cx="670" cy="225" r="12"/><circle cx="670" cy="291" r="12"/><circle cx="670" cy="357" r="12"/><circle cx="670" cy="423" r="12"/><circle cx="670" cy="489" r="12"/>
+</g>
+
+<g font-size="12.5" fill="#ffffff" font-weight="700" text-anchor="middle">
+<text x="90" y="229.5">1</text><text x="90" y="295.5">2</text><text x="90" y="361.5">3</text><text x="90" y="427.5">4</text><text x="90" y="493.5">5</text>
+<text x="670" y="229.5">1</text><text x="670" y="295.5">2</text><text x="670" y="361.5">3</text><text x="670" y="427.5">4</text><text x="670" y="493.5">5</text>
+</g>
+<g font-size="15" font-weight="500">
+<text x="114" y="231">Open each book to find the barcode</text>
+<text x="114" y="297">Line up the scanner (line of sight)</text>
+<text x="114" y="363">Scan, wait for the beep</text>
+<text x="114" y="429">Desensitize the security strip separately</text>
+<text x="114" y="495">Repeat for every book</text>
+<text x="694" y="231">Put the whole stack on the pad</text>
+<text x="694" y="297">Reader inventories every tag in one pass</text>
+<text x="694" y="363">Middleware sends one checkout per item</text>
+<text x="694" y="429">Security state is switched in the same write</text>
+<text x="694" y="495">Print one receipt for the whole stack</text>
+</g>
+<g font-size="14" font-weight="600">
+<text x="64" y="560" fill="#5b6b7c">Four handling steps for each of the five books.</text>
+<text x="64" y="582" fill="#5b6b7c">Identity and security are two separate systems.</text>
+<text x="644" y="560" fill="#0b7a83">No line of sight. Identity and security on one tag,</text>
+<text x="644" y="582" fill="#0b7a83">and the same tag serves the gates and inventory.</text>
+</g>
+<text x="1160" y="634" font-size="12" fill="#5b6b7c" text-anchor="end">Mohammed Mahyoub, RFID Library Automation System (ISO/IEC 15693)</text>
+</svg>

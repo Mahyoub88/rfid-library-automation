@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 880" width="1200" height="880" fill="#1d2733" role="img" aria-label="Security gate decision flow">
+<title>Security gate decision flow</title>
+<defs><style>text{font-family:'Segoe UI', Helvetica, Arial, 'Liberation Sans', sans-serif}</style>
+<marker id="m0" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#5b6b7c"/></marker>
+</defs>
+<rect width="1200" height="880" fill="#ffffff"/>
+<rect x="0" y="0" width="1200" height="6" fill="#1f3a5f"/>
+<text x="40" y="52" font-size="26" font-weight="700">Security gate decision flow</text>
+<text x="40" y="80" font-size="15" fill="#5b6b7c">What happens when a tagged item passes the exit gates</text>
+<g stroke="#5b6b7c" stroke-width="2" marker-end="url(#m0)">
+<line x1="420" y1="186" x2="420" y2="226"/>
+<line x1="420" y1="330" x2="420" y2="376"/>
+<line x1="420" y1="448" x2="420" y2="488"/>
+<line x1="280" y1="545" x2="190" y2="545"/>
+<line x1="420" y1="600" x2="420" y2="648"/>
+<line x1="420" y1="726" x2="420" y2="770"/>
+</g>
+<path d="M 550 280 H 660 V 150 H 604" fill="none" stroke="#5b6b7c" stroke-width="1.8" marker-end="url(#m0)"/>
+<g font-size="13" fill="#5b6b7c" font-weight="600">
+<text x="610" y="272" text-anchor="middle">no</text>
+<text x="434" y="357">yes</text>
+<text x="235" y="535" text-anchor="middle">no</text>
+<text x="434" y="628">yes</text>
+</g>
+<rect x="240" y="115" width="360" height="70" rx="8" fill="#e3f3f4" stroke="#0b7a83" stroke-width="1.5"/>
+<polygon points="420,230 550,280 420,330 290,280" fill="#ffffff" stroke="#1f3a5f" stroke-width="1.8"/>
+<rect x="240" y="377" width="360" height="70" rx="8" fill="#ffffff" stroke="#0b7a83" stroke-width="1.5"/>
+<polygon points="420,490 560,545 420,600 280,545" fill="#ffffff" stroke="#b86e00" stroke-width="1.8"/>
+<rect x="50" y="505" width="140" height="80" rx="8" fill="#e6f3ea" stroke="#2e7d4f" stroke-width="1.5"/>
+<rect x="240" y="650" width="360" height="76" rx="8" fill="#fbe9e7" stroke="#b3261e" stroke-width="1.5"/>
+<rect x="220" y="772" width="400" height="72" rx="8" fill="#ffffff" stroke="#1f3a5f" stroke-width="1.5"/>
+<g text-anchor="middle" font-weight="700">
+<text x="420" y="143.5" font-size="15" fill="#0b7a83">Gate antennas interrogate</text>
+<text x="420" y="276" font-size="14" fill="#1f3a5f">Tag in the</text>
+<text x="420" y="294" font-size="14" fill="#1f3a5f">field?</text>
+<text x="420" y="405.5" font-size="15" fill="#0b7a83">Read security state</text>
+<text x="420" y="541" font-size="14" fill="#b86e00">Item still</text>
+<text x="420" y="559" font-size="14" fill="#b86e00">secured?</text>
+<text x="120" y="538.5" font-size="15" fill="#2e7d4f">Pass</text>
+<text x="420" y="681.5" font-size="15" fill="#b3261e">Alarm</text>
+<text x="420" y="801.5" font-size="15" fill="#1f3a5f">Log the event</text>
+</g>
+<g text-anchor="middle" font-size="13">
+<text x="420" y="167.7">continuously, both sides of the aisle</text>
+<text x="420" y="429.7">AFI-filtered inventory or EAS alarm command</text>
+<text x="120" y="562.7">no alarm</text>
+<text x="420" y="705.7">light and sound at the gate</text>
+<text x="420" y="825.7">UID, item ID, title, gate, time</text>
+</g>
+<rect x="720" y="120" width="440" height="530" rx="10" fill="#f6f8fb" stroke="#d5dde6" stroke-width="1"/>
+<text x="744" y="152" font-size="17" fill="#1f3a5f" font-weight="700">Design notes</text>
+<g font-size="15" font-weight="700">
+<text x="744" y="192">Why the state lives on the tag</text>
+<text x="744" y="301">Lookup is optional</text>
+<text x="744" y="410">Known blind spots</text>
+<text x="744" y="557">Privacy</text>
+</g>
+<g font-size="13.5">
+<text x="744" y="216">The gate decides in milliseconds without</text>
+<text x="744" y="235">asking the server, so it keeps working</text>
+<text x="744" y="254">if the network or the LMS is down.</text>
+<text x="744" y="325">The middleware can turn the UID into a title</text>
+<text x="744" y="344">for the staff screen. That is a convenience,</text>
+<text x="744" y="363">not part of the alarm decision.</text>
+<text x="744" y="434">Metal foil, a metal-lined bag or a hand</text>
+<text x="744" y="453">covering the tag can block the field.</text>
+<text x="744" y="472">Very fast passage or bad orientation can</text>
+<text x="744" y="491">also miss a tag. Gate tests should cover</text>
+<text x="744" y="510">these cases.</text>
+<text x="744" y="581">Store only an item ID on the tag, never</text>
+<text x="744" y="600">patron data. The UID alone links to a</text>
+<text x="744" y="619">person only through the loan record.</text>
+</g>
+<text x="1160" y="866" font-size="12" fill="#5b6b7c" text-anchor="end">Mohammed Mahyoub, RFID Library Automation System (ISO/IEC 15693)</text>
+</svg>

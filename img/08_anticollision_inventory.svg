@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 830" width="1200" height="830" fill="#1d2733" role="img" aria-label="Reading many tags at once: 16-slot anticollision">
+<title>Reading many tags at once: 16-slot anticollision</title>
+<defs><style>text{font-family:'Segoe UI', Helvetica, Arial, 'Liberation Sans', sans-serif}</style>
+<g id="slots">
+<g fill="#ffffff" stroke="#d5dde6" stroke-width="1">
+<rect x="200" y="0" width="54" height="30" rx="4"/><rect x="260" y="0" width="54" height="30" rx="4"/><rect x="320" y="0" width="54" height="30" rx="4"/><rect x="380" y="0" width="54" height="30" rx="4"/>
+<rect x="440" y="0" width="54" height="30" rx="4"/><rect x="500" y="0" width="54" height="30" rx="4"/><rect x="560" y="0" width="54" height="30" rx="4"/><rect x="620" y="0" width="54" height="30" rx="4"/>
+<rect x="680" y="0" width="54" height="30" rx="4"/><rect x="740" y="0" width="54" height="30" rx="4"/><rect x="800" y="0" width="54" height="30" rx="4"/><rect x="860" y="0" width="54" height="30" rx="4"/>
+<rect x="920" y="0" width="54" height="30" rx="4"/><rect x="980" y="0" width="54" height="30" rx="4"/><rect x="1040" y="0" width="54" height="30" rx="4"/><rect x="1100" y="0" width="54" height="30" rx="4"/>
+</g>
+<g font-size="12.5" fill="#5b6b7c" font-weight="600" text-anchor="middle">
+<text x="227" y="20">S0</text><text x="287" y="20">S1</text><text x="347" y="20">S2</text><text x="407" y="20">S3</text>
+<text x="467" y="20">S4</text><text x="527" y="20">S5</text><text x="587" y="20">S6</text><text x="647" y="20">S7</text>
+<text x="707" y="20">S8</text><text x="767" y="20">S9</text><text x="827" y="20">S10</text><text x="887" y="20">S11</text>
+<text x="947" y="20">S12</text><text x="1007" y="20">S13</text><text x="1067" y="20">S14</text><text x="1127" y="20">S15</text>
+</g>
+</g>
+</defs>
+<rect width="1200" height="830" fill="#ffffff"/>
+<rect x="0" y="0" width="1200" height="6" fill="#1f3a5f"/>
+<text x="40" y="52" font-size="26" font-weight="700">Reading many tags at once: 16-slot anticollision</text>
+<text x="40" y="80" font-size="15" fill="#5b6b7c">ISO/IEC 15693-3 Inventory: each tag answers in the slot given by 4 bits of its UID</text>
+
+<text x="40" y="128" font-size="15" fill="#1f3a5f" font-weight="700">Round 1</text>
+<rect x="40" y="140" width="150" height="30" rx="4" fill="#e8eef6" stroke="#1f3a5f" stroke-width="1.5"/>
+<text x="115" y="160" font-size="12.5" fill="#1f3a5f" font-weight="600" text-anchor="middle">Inventory</text>
+<use xlink:href="#slots" href="#slots" transform="translate(0,140)"/>
+<text x="40" y="212" font-size="13.5" fill="#0b7a83" font-weight="700">Tag replies</text>
+<g fill="#e3f3f4" stroke="#0b7a83" stroke-width="1.5">
+<rect x="380" y="184" width="54" height="42" rx="4"/><rect x="620" y="184" width="54" height="42" rx="4"/><rect x="1040" y="184" width="54" height="42" rx="4"/>
+</g>
+<rect x="860" y="184" width="54" height="42" rx="4" fill="#fbe9e7" stroke="#b3261e" stroke-width="1.5"/>
+<g font-size="14" font-weight="700" text-anchor="middle" fill="#0b7a83">
+<text x="407" y="210">A</text><text x="647" y="210">B</text><text x="1067" y="210">E</text>
+</g>
+<text x="887" y="210" font-size="14" font-weight="700" text-anchor="middle" fill="#b3261e">C+D</text>
+<g font-size="14" text-anchor="middle" fill="#d5dde6">
+<text x="227" y="210">–</text><text x="287" y="210">–</text><text x="347" y="210">–</text><text x="467" y="210">–</text><text x="527" y="210">–</text><text x="587" y="210">–</text>
+<text x="707" y="210">–</text><text x="767" y="210">–</text><text x="827" y="210">–</text><text x="947" y="210">–</text><text x="1007" y="210">–</text><text x="1127" y="210">–</text>
+</g>
+<text x="200" y="250" font-size="13" fill="#5b6b7c">Between slots the reader sends EOF. Empty slots cost almost nothing.</text>
+
+<text x="40" y="308" font-size="15" fill="#1f3a5f" font-weight="700">Round 2</text>
+<rect x="40" y="320" width="150" height="30" rx="4" fill="#e8eef6" stroke="#1f3a5f" stroke-width="1.5"/>
+<text x="115" y="340" font-size="12.5" fill="#1f3a5f" font-weight="600" text-anchor="middle">Inventory, mask Bh</text>
+<use xlink:href="#slots" href="#slots" transform="translate(0,320)"/>
+<text x="40" y="392" font-size="13.5" fill="#0b7a83" font-weight="700">Tag replies</text>
+<g fill="#e3f3f4" stroke="#0b7a83" stroke-width="1.5">
+<rect x="500" y="364" width="54" height="42" rx="4"/><rect x="920" y="364" width="54" height="42" rx="4"/>
+</g>
+<g font-size="14" font-weight="700" text-anchor="middle" fill="#0b7a83">
+<text x="527" y="390">C</text><text x="947" y="390">D</text>
+</g>
+<g font-size="14" text-anchor="middle" fill="#d5dde6">
+<text x="227" y="390">–</text><text x="287" y="390">–</text><text x="347" y="390">–</text><text x="407" y="390">–</text><text x="467" y="390">–</text><text x="587" y="390">–</text><text x="647" y="390">–</text>
+<text x="707" y="390">–</text><text x="767" y="390">–</text><text x="827" y="390">–</text><text x="887" y="390">–</text><text x="1007" y="390">–</text><text x="1067" y="390">–</text><text x="1127" y="390">–</text>
+</g>
+<text x="200" y="430" font-size="13" fill="#5b6b7c">Only tags whose low UID nibble is Bh take part; they now split on the next 4 bits.</text>
+
+<circle cx="52" cy="518" r="12" fill="#1f3a5f"/><text x="52" y="522.5" font-size="12.5" fill="#ffffff" font-weight="700" text-anchor="middle">1</text>
+<text x="76" y="523" font-size="15" fill="#1f3a5f" font-weight="700">Round 1</text>
+<text x="190" y="515" font-size="14">Reader sends Inventory with 16 slots. Each tag picks its slot from the low 4 bits of its UID.</text>
+<text x="190" y="535" font-size="14" fill="#5b6b7c">A, B and E answer alone, so their UIDs are read cleanly.</text>
+
+<circle cx="52" cy="594" r="12" fill="#b3261e"/><text x="52" y="598.5" font-size="12.5" fill="#ffffff" font-weight="700" text-anchor="middle">2</text>
+<text x="76" y="599" font-size="15" fill="#b3261e" font-weight="700">Collision</text>
+<text x="190" y="591" font-size="14">C and D share slot 11, so their replies overlap and the CRC check fails.</text>
+<text x="190" y="611" font-size="14" fill="#5b6b7c">The reader records that slot 11 collided.</text>
+
+<circle cx="52" cy="670" r="12" fill="#1f3a5f"/><text x="52" y="674.5" font-size="12.5" fill="#ffffff" font-weight="700" text-anchor="middle">3</text>
+<text x="76" y="675" font-size="15" fill="#1f3a5f" font-weight="700">Round 2</text>
+<text x="190" y="667" font-size="14">Reader repeats Inventory with mask Bh, so only C and D answer, sorted by the next 4 UID bits.</text>
+<text x="190" y="687" font-size="14" fill="#5b6b7c">They land in different slots and are read.</text>
+
+<circle cx="52" cy="746" r="12" fill="#1f3a5f"/><text x="52" y="750.5" font-size="12.5" fill="#ffffff" font-weight="700" text-anchor="middle">4</text>
+<text x="76" y="751" font-size="15" fill="#1f3a5f" font-weight="700">Done</text>
+<text x="190" y="743" font-size="14">Optionally the reader sends Stay Quiet to each tag found, so they stop answering.</text>
+<text x="190" y="763" font-size="14" fill="#5b6b7c">A stack of books on the pad is identified in one pass, without lining up a barcode.</text>
+
+<text x="1160" y="814" font-size="12" fill="#5b6b7c" text-anchor="end">Mohammed Mahyoub, RFID Library Automation System (ISO/IEC 15693)</text>
+</svg>

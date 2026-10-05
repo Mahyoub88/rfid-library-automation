@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 790" width="1200" height="790" fill="#1d2733" role="img" aria-label="Data model on the host">
+<title>Data model on the host</title>
+<defs><style>text{font-family:'Segoe UI', Helvetica, Arial, 'Liberation Sans', sans-serif}.m{font-family:Consolas, 'DejaVu Sans Mono', monospace}</style></defs>
+<rect width="1200" height="790" fill="#ffffff"/>
+<rect x="0" y="0" width="1200" height="6" fill="#1f3a5f"/>
+<text x="40" y="52" font-size="26" font-weight="700">Data model on the host</text>
+<text x="40" y="80" font-size="15" fill="#5b6b7c">Tables behind the RFID workflow and how they relate (1 = one, N = many)</text>
+
+<g stroke="#5b6b7c" stroke-width="1.8">
+<line x1="290" y1="200" x2="475" y2="200"/>
+<line x1="910" y1="200" x2="725" y2="200"/>
+<line x1="1035" y1="302" x2="1035" y2="450"/>
+<line x1="910" y1="540" x2="725" y2="540"/>
+<line x1="290" y1="540" x2="475" y2="540"/>
+</g>
+<g font-size="13.5" fill="#1f3a5f" font-weight="700" text-anchor="middle">
+<text x="308" y="216">1</text><text x="457" y="216">N</text>
+<text x="892" y="192">1</text><text x="743" y="192">N</text>
+<text x="1023" y="324">1</text><text x="1023" y="436">1</text>
+<text x="892" y="532">1</text><text x="743" y="532">N</text>
+<text x="308" y="556">1</text><text x="457" y="556">N</text>
+</g>
+
+<g fill="#ffffff" stroke-width="1.8">
+<rect x="40" y="130" width="250" height="146" rx="8" stroke="#1f3a5f"/>
+<rect x="475" y="130" width="250" height="194" rx="8" stroke="#1f3a5f"/>
+<rect x="910" y="130" width="250" height="170" rx="8" stroke="#1f3a5f"/>
+<rect x="910" y="450" width="250" height="170" rx="8" stroke="#0b7a83"/>
+<rect x="475" y="450" width="250" height="194" rx="8" stroke="#0b7a83"/>
+<rect x="40" y="450" width="250" height="146" rx="8" stroke="#0b7a83"/>
+</g>
+<path d="M 40 138 a 8 8 0 0 1 8 -8 h 234 a 8 8 0 0 1 8 8 v 32 h -250 z" fill="#1f3a5f"/>
+<path d="M 475 138 a 8 8 0 0 1 8 -8 h 234 a 8 8 0 0 1 8 8 v 32 h -250 z" fill="#1f3a5f"/>
+<path d="M 910 138 a 8 8 0 0 1 8 -8 h 234 a 8 8 0 0 1 8 8 v 32 h -250 z" fill="#1f3a5f"/>
+<path d="M 910 458 a 8 8 0 0 1 8 -8 h 234 a 8 8 0 0 1 8 8 v 32 h -250 z" fill="#0b7a83"/>
+<path d="M 475 458 a 8 8 0 0 1 8 -8 h 234 a 8 8 0 0 1 8 8 v 32 h -250 z" fill="#0b7a83"/>
+<path d="M 40 458 a 8 8 0 0 1 8 -8 h 234 a 8 8 0 0 1 8 8 v 32 h -250 z" fill="#0b7a83"/>
+<g font-size="15.5" fill="#ffffff" font-weight="700">
+<text x="54" y="156">patron</text>
+<text x="489" y="156">loan</text>
+<text x="924" y="156">item</text>
+<text x="924" y="476">tag</text>
+<text x="489" y="476">transaction</text>
+<text x="54" y="476">station</text>
+</g>
+
+<g font-size="13.5" class="m">
+<text x="54" y="192" font-weight="600" class="m">patron_id</text>
+<text x="54" y="216" class="m">name</text>
+<text x="54" y="240" class="m">card_no</text>
+<text x="54" y="264" class="m">status</text>
+
+<text x="489" y="192" font-weight="600" class="m">loan_id</text>
+<text x="489" y="216" font-weight="600" class="m">patron_id</text>
+<text x="489" y="240" font-weight="600" class="m">item_id</text>
+<text x="489" y="264" class="m">out_at</text>
+<text x="489" y="288" class="m">due_at</text>
+<text x="489" y="312" class="m">returned_at</text>
+
+<text x="924" y="192" font-weight="600" class="m">item_id</text>
+<text x="924" y="216" class="m">title</text>
+<text x="924" y="240" class="m">call_no</text>
+<text x="924" y="264" class="m">owner_library</text>
+<text x="924" y="288" class="m">status</text>
+
+<text x="924" y="512" font-weight="600" class="m">uid</text>
+<text x="924" y="536" font-weight="600" class="m">item_id</text>
+<text x="924" y="560" class="m">afi</text>
+<text x="924" y="584" class="m">tagged_at</text>
+<text x="924" y="608" class="m">locked</text>
+
+<text x="489" y="512" font-weight="600" class="m">txn_id</text>
+<text x="489" y="536" font-weight="600" class="m">station_id</text>
+<text x="489" y="560" font-weight="600" class="m">uid</text>
+<text x="489" y="584" class="m">type</text>
+<text x="489" y="608" class="m">result</text>
+<text x="489" y="632" class="m">at</text>
+
+<text x="54" y="512" font-weight="600" class="m">station_id</text>
+<text x="54" y="536" class="m">type</text>
+<text x="54" y="560" class="m">location</text>
+<text x="54" y="584" class="m">port</text>
+</g>
+
+<g font-size="11.5" font-weight="700" text-anchor="end" fill="#1f3a5f">
+<text x="276" y="192">PK</text>
+<text x="711" y="192">PK</text><text x="711" y="216">FK</text><text x="711" y="240">FK</text>
+<text x="1146" y="192">PK</text>
+</g>
+<g font-size="11.5" font-weight="700" text-anchor="end" fill="#0b7a83">
+<text x="1146" y="512">PK</text><text x="1146" y="536">FK</text>
+<text x="711" y="512">PK</text><text x="711" y="536">FK</text><text x="711" y="560">FK</text>
+<text x="276" y="512">PK</text>
+</g>
+
+<rect x="40" y="680" width="1120" height="50" rx="8" fill="#f6f8fb" stroke="#d5dde6" stroke-width="1"/>
+<text x="60" y="711" font-size="14">Only the item ID and the security state live on the tag. Everything personal stays in these tables, on the server.</text>
+<text x="1160" y="774" font-size="12" fill="#5b6b7c" text-anchor="end">Mohammed Mahyoub, RFID Library Automation System (ISO/IEC 15693)</text>
+</svg>

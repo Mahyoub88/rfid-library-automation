@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 640" width="1200" height="640" fill="#1d2733" role="img" aria-label="Return at the book-drop (check-in)">
+<title>Return at the book-drop (check-in)</title>
+<defs><style>text{font-family:'Segoe UI', Helvetica, Arial, 'Liberation Sans', sans-serif}</style>
+<marker id="m0" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#1d2733"/></marker>
+<marker id="m1" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#0b7a83"/></marker>
+<marker id="m2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#1f3a5f"/></marker>
+<marker id="m3" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#b86e00"/></marker>
+<marker id="m4" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#2e7d4f"/></marker>
+</defs>
+<rect width="1200" height="640" fill="#ffffff"/>
+<rect x="0" y="0" width="1200" height="6" fill="#1f3a5f"/>
+<text x="40" y="52" font-size="26" font-weight="700">Return at the book-drop (check-in)</text>
+<text x="40" y="80" font-size="15" fill="#5b6b7c">The item is identified as it drops, the loan is closed and the item is secured again</text>
+<g stroke="#d5dde6" stroke-width="1.6" stroke-dasharray="5 5">
+<line x1="120" y1="154" x2="120" y2="600"/><line x1="360" y1="154" x2="360" y2="600"/><line x1="600" y1="154" x2="600" y2="600"/>
+<line x1="840" y1="154" x2="840" y2="600"/><line x1="1080" y1="154" x2="1080" y2="600"/>
+</g>
+<g fill="#ffffff" stroke-width="1.8">
+<rect x="45" y="110" width="150" height="44" rx="8" stroke="#1d2733"/>
+<rect x="285" y="110" width="150" height="44" rx="8" stroke="#0b7a83"/>
+<rect x="525" y="110" width="150" height="44" rx="8" stroke="#1f3a5f"/>
+<rect x="765" y="110" width="150" height="44" rx="8" stroke="#1f3a5f"/>
+<rect x="1005" y="110" width="150" height="44" rx="8" stroke="#b86e00"/>
+</g>
+<g font-size="14.5" font-weight="700" text-anchor="middle">
+<text x="120" y="138">Patron</text>
+<text x="360" y="138" fill="#0b7a83">Book-drop</text>
+<text x="600" y="138" fill="#1f3a5f">Middleware</text>
+<text x="840" y="138" fill="#1f3a5f">Library system</text>
+<text x="1080" y="138" fill="#b86e00">Staff / sorter</text>
+</g>
+<g stroke-width="1.8">
+<line x1="126" y1="192" x2="354" y2="192" stroke="#1d2733" marker-end="url(#m0)"/>
+<line x1="366" y1="238" x2="594" y2="238" stroke="#0b7a83" marker-end="url(#m1)"/>
+<line x1="606" y1="284" x2="834" y2="284" stroke="#1f3a5f" marker-end="url(#m2)"/>
+<line x1="834" y1="330" x2="606" y2="330" stroke="#1f3a5f" stroke-dasharray="6 4" marker-end="url(#m2)"/>
+<line x1="594" y1="376" x2="366" y2="376" stroke="#b86e00" marker-end="url(#m3)"/>
+<line x1="366" y1="422" x2="594" y2="422" stroke="#b86e00" stroke-dasharray="6 4" marker-end="url(#m3)"/>
+<line x1="354" y1="468" x2="126" y2="468" stroke="#2e7d4f" marker-end="url(#m4)"/>
+<line x1="606" y1="514" x2="1074" y2="514" stroke="#b86e00" marker-end="url(#m3)"/>
+</g>
+<circle cx="134" cy="175" r="12" fill="#1d2733"/>
+<circle cx="374" cy="221" r="12" fill="#0b7a83"/>
+<circle cx="614" cy="267" r="12" fill="#1f3a5f"/>
+<circle cx="614" cy="313" r="12" fill="#1f3a5f"/>
+<circle cx="374" cy="359" r="12" fill="#b86e00"/>
+<circle cx="374" cy="405" r="12" fill="#b86e00"/>
+<circle cx="134" cy="451" r="12" fill="#2e7d4f"/>
+<circle cx="614" cy="497" r="12" fill="#b86e00"/>
+<g font-size="12.5" fill="#ffffff" font-weight="700" text-anchor="middle">
+<text x="134" y="179.5">1</text><text x="374" y="225.5">2</text><text x="614" y="271.5">3</text><text x="614" y="317.5">4</text>
+<text x="374" y="363.5">5</text><text x="374" y="409.5">6</text><text x="134" y="455.5">7</text><text x="614" y="501.5">8</text>
+</g>
+<g font-size="13.5" font-weight="500">
+<text x="152" y="180">Drops a book into the slot</text>
+<text x="392" y="226">UID + item ID read in the chute</text>
+<text x="632" y="272">SIP2 Checkin (09)</text>
+<text x="632" y="318">Checkin response (10): ok, hold / transit flag</text>
+<text x="392" y="364">Write AFI = 07h / set EAS (secure again)</text>
+<text x="392" y="410">Write confirmed</text>
+<text x="152" y="456">Light and screen: return accepted</text>
+<text x="632" y="502">Route: shelf, hold shelf or transit bin</text>
+</g>
+<rect x="50" y="538" width="1100" height="32" rx="6" fill="#fbf1e1" stroke="#b86e00" stroke-width="1.2"/>
+<text x="600" y="559" font-size="13" fill="#b86e00" font-weight="600" text-anchor="middle">Unread tag or failed write: the item goes to an exception bin for a manual check.</text>
+<text x="1160" y="624" font-size="12" fill="#5b6b7c" text-anchor="end">Mohammed Mahyoub, RFID Library Automation System (ISO/IEC 15693)</text>
+</svg>

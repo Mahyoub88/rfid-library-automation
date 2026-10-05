@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" width="1200" height="900" fill="#1d2733" role="img" aria-label="Self-service check-out">
+<title>Self-service check-out</title>
+<defs><style>text{font-family:'Segoe UI', Helvetica, Arial, 'Liberation Sans', sans-serif}</style>
+<marker id="m0" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#1d2733"/></marker>
+<marker id="m1" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#1f3a5f"/></marker>
+<marker id="m2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#0b7a83"/></marker>
+<marker id="m3" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#b86e00"/></marker>
+<marker id="m4" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#2e7d4f"/></marker>
+</defs>
+<rect width="1200" height="900" fill="#ffffff"/>
+<rect x="0" y="0" width="1200" height="6" fill="#1f3a5f"/>
+<text x="40" y="52" font-size="26" font-weight="700">Self-service check-out</text>
+<text x="40" y="80" font-size="15" fill="#5b6b7c">Message sequence at the kiosk: the patron, the reader, the tags, the middleware and the library system</text>
+<g stroke="#d5dde6" stroke-width="1.6" stroke-dasharray="5 5">
+<line x1="120" y1="154" x2="120" y2="860"/><line x1="312" y1="154" x2="312" y2="860"/><line x1="504" y1="154" x2="504" y2="860"/>
+<line x1="696" y1="154" x2="696" y2="860"/><line x1="888" y1="154" x2="888" y2="860"/><line x1="1080" y1="154" x2="1080" y2="860"/>
+</g>
+<g fill="#ffffff" stroke-width="1.8">
+<rect x="45" y="110" width="150" height="44" rx="8" stroke="#1d2733"/>
+<rect x="237" y="110" width="150" height="44" rx="8" stroke="#1f3a5f"/>
+<rect x="429" y="110" width="150" height="44" rx="8" stroke="#1f3a5f"/>
+<rect x="621" y="110" width="150" height="44" rx="8" stroke="#0b7a83"/>
+<rect x="813" y="110" width="150" height="44" rx="8" stroke="#0b7a83"/>
+<rect x="1005" y="110" width="150" height="44" rx="8" stroke="#1f3a5f"/>
+</g>
+<g font-size="14.5" font-weight="700" text-anchor="middle">
+<text x="120" y="138">Patron</text>
+<text x="312" y="138" fill="#1f3a5f">Kiosk UI</text>
+<text x="504" y="138" fill="#1f3a5f">Middleware</text>
+<text x="696" y="138" fill="#0b7a83">RFID reader</text>
+<text x="888" y="138" fill="#0b7a83">Tags</text>
+<text x="1080" y="138" fill="#1f3a5f">Library system</text>
+</g>
+<g stroke-width="1.8">
+<line x1="126" y1="192" x2="306" y2="192" stroke="#1d2733" marker-end="url(#m0)"/>
+<line x1="318" y1="238" x2="498" y2="238" stroke="#1f3a5f" marker-end="url(#m1)"/>
+<line x1="510" y1="284" x2="1074" y2="284" stroke="#1f3a5f" marker-end="url(#m1)"/>
+<line x1="1074" y1="330" x2="510" y2="330" stroke="#1f3a5f" stroke-dasharray="6 4" marker-end="url(#m1)"/>
+<line x1="126" y1="376" x2="306" y2="376" stroke="#1d2733" marker-end="url(#m0)"/>
+<line x1="510" y1="422" x2="690" y2="422" stroke="#0b7a83" marker-end="url(#m2)"/>
+<line x1="702" y1="468" x2="882" y2="468" stroke="#0b7a83" marker-end="url(#m2)"/>
+<line x1="882" y1="514" x2="702" y2="514" stroke="#0b7a83" stroke-dasharray="6 4" marker-end="url(#m2)"/>
+<line x1="690" y1="560" x2="510" y2="560" stroke="#0b7a83" stroke-dasharray="6 4" marker-end="url(#m2)"/>
+<line x1="510" y1="606" x2="1074" y2="606" stroke="#1f3a5f" marker-end="url(#m1)"/>
+<line x1="1074" y1="652" x2="510" y2="652" stroke="#1f3a5f" stroke-dasharray="6 4" marker-end="url(#m1)"/>
+<line x1="510" y1="698" x2="882" y2="698" stroke="#b86e00" marker-end="url(#m3)"/>
+<line x1="882" y1="744" x2="510" y2="744" stroke="#b86e00" stroke-dasharray="6 4" marker-end="url(#m3)"/>
+<line x1="306" y1="790" x2="126" y2="790" stroke="#2e7d4f" marker-end="url(#m4)"/>
+</g>
+<circle cx="134" cy="175" r="12" fill="#1d2733"/>
+<circle cx="326" cy="221" r="12" fill="#1f3a5f"/>
+<circle cx="518" cy="267" r="12" fill="#1f3a5f"/>
+<circle cx="518" cy="313" r="12" fill="#1f3a5f"/>
+<circle cx="134" cy="359" r="12" fill="#1d2733"/>
+<circle cx="518" cy="405" r="12" fill="#0b7a83"/>
+<circle cx="710" cy="451" r="12" fill="#0b7a83"/>
+<circle cx="710" cy="497" r="12" fill="#0b7a83"/>
+<circle cx="518" cy="543" r="12" fill="#0b7a83"/>
+<circle cx="518" cy="589" r="12" fill="#1f3a5f"/>
+<circle cx="518" cy="635" r="12" fill="#1f3a5f"/>
+<circle cx="518" cy="681" r="12" fill="#b86e00"/>
+<circle cx="518" cy="727" r="12" fill="#b86e00"/>
+<circle cx="134" cy="773" r="12" fill="#2e7d4f"/>
+<g font-size="12.5" fill="#ffffff" font-weight="700" text-anchor="middle">
+<text x="134" y="179.5">1</text><text x="326" y="225.5">2</text><text x="518" y="271.5">3</text><text x="518" y="317.5">4</text>
+<text x="134" y="363.5">5</text><text x="518" y="409.5">6</text><text x="710" y="455.5">7</text><text x="710" y="501.5">8</text>
+<text x="518" y="547.5">9</text><text x="518" y="593.5">10</text><text x="518" y="639.5">11</text><text x="518" y="685.5">12</text>
+<text x="518" y="731.5">13</text><text x="134" y="777.5">14</text>
+</g>
+<g font-size="13.5" font-weight="500">
+<text x="152" y="180">Scan library card, enter PIN</text>
+<text x="344" y="226">Identify patron</text>
+<text x="536" y="272">SIP2 Patron Information (63)</text>
+<text x="536" y="318">Patron valid, no blocks (64)</text>
+<text x="152" y="364">Place the stack of books on the pad</text>
+<text x="536" y="410">Inventory request (STX … ETX)</text>
+<text x="728" y="456">Inventory + read item-ID blocks</text>
+<text x="728" y="502">UIDs + item IDs (all tags, one pass)</text>
+<text x="536" y="548">Tag list</text>
+<text x="536" y="594">SIP2 Checkout (11), one per item</text>
+<text x="536" y="640">Checkout response (12): ok, due date</text>
+<text x="536" y="686">Via reader: write AFI = C2h / clear EAS</text>
+<text x="536" y="732">Write confirmed</text>
+<text x="152" y="778">Receipt with titles and due dates</text>
+</g>
+<rect x="50" y="814" width="1100" height="32" rx="6" fill="#fbf1e1" stroke="#b86e00" stroke-width="1.2"/>
+<text x="600" y="835" font-size="13" fill="#b86e00" font-weight="600" text-anchor="middle">If any write or SIP2 reply fails, that item stays secured and the kiosk sends the patron to staff.</text>
+<text x="1160" y="884" font-size="12" fill="#5b6b7c" text-anchor="end">Mohammed Mahyoub, RFID Library Automation System (ISO/IEC 15693)</text>
+</svg>

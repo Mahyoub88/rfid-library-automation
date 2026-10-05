@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" width="1200" height="760" fill="#1d2733" role="img" aria-label="Life cycle of a tagged item">
+<title>Life cycle of a tagged item</title>
+<defs><style>text{font-family:'Segoe UI', Helvetica, Arial, 'Liberation Sans', sans-serif}</style>
+<marker id="m0" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#1f3a5f"/></marker>
+<marker id="m1" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#2e7d4f"/></marker>
+<marker id="m2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#0b7a83"/></marker>
+<marker id="m3" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#b86e00"/></marker>
+<marker id="m4" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#b3261e"/></marker>
+<marker id="m5" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#5b6b7c"/></marker>
+</defs>
+<rect width="1200" height="760" fill="#ffffff"/>
+<rect x="0" y="0" width="1200" height="6" fill="#1f3a5f"/>
+<text x="40" y="52" font-size="26" font-weight="700">Life cycle of a tagged item</text>
+<text x="40" y="80" font-size="15" fill="#5b6b7c">States the item and its tag move through, and the station that moves them</text>
+<g stroke-width="1.5">
+<rect x="50" y="178" width="220" height="84" rx="8" fill="#ffffff" stroke="#5b6b7c"/>
+<rect x="410" y="178" width="220" height="84" rx="8" fill="#e3f3f4" stroke="#0b7a83"/>
+<rect x="790" y="178" width="220" height="84" rx="8" fill="#e6f3ea" stroke="#2e7d4f"/>
+<rect x="410" y="438" width="220" height="84" rx="8" fill="#fbf1e1" stroke="#b86e00"/>
+<rect x="790" y="438" width="220" height="84" rx="8" fill="#fbe9e7" stroke="#b3261e"/>
+<rect x="50" y="438" width="220" height="84" rx="8" fill="#ffffff" stroke="#5b6b7c"/>
+</g>
+<g font-size="16" font-weight="700" text-anchor="middle">
+<text x="160" y="213.8" fill="#5b6b7c">Blank tag</text>
+<text x="520" y="213.8" fill="#0b7a83">On shelf</text>
+<text x="900" y="213.8" fill="#2e7d4f">On loan</text>
+<text x="520" y="473.8" fill="#b86e00">Missing</text>
+<text x="900" y="465.1" fill="#b3261e">Withdrawn</text>
+<text x="160" y="473.8" fill="#5b6b7c">Re-tag</text>
+</g>
+<g font-size="13" text-anchor="middle">
+<text x="160" y="238.1">UID only</text>
+<text x="520" y="238.1">AFI 07h, secured</text>
+<text x="900" y="238.1">AFI C2h, unsecured</text>
+<text x="520" y="498.1">not found at inventory</text>
+<text x="900" y="489.3">record closed, tag removed</text>
+<text x="900" y="506.9">or permanently locked</text>
+<text x="160" y="498.1">damaged or unreadable tag</text>
+</g>
+<g fill="none" stroke-width="2">
+<line x1="272" y1="220" x2="406" y2="220" stroke="#1f3a5f" marker-end="url(#m0)"/>
+<path d="M 632 205 C 700 160, 720 160, 788 205" stroke="#2e7d4f" marker-end="url(#m1)"/>
+<path d="M 788 238 C 720 285, 700 285, 632 238" stroke="#0b7a83" marker-end="url(#m2)"/>
+<line x1="500" y1="264" x2="500" y2="436" stroke="#b86e00" marker-end="url(#m3)"/>
+<line x1="540" y1="436" x2="540" y2="264" stroke="#0b7a83" marker-end="url(#m2)"/>
+<line x1="632" y1="480" x2="788" y2="480" stroke="#b3261e" marker-end="url(#m4)"/>
+<path d="M 900 264 V 436" stroke="#b3261e" marker-end="url(#m4)"/>
+<path d="M 410 250 C 330 330, 260 380, 200 436" stroke="#5b6b7c" stroke-dasharray="6 4" marker-end="url(#m5)"/>
+<path d="M 160 436 V 264" stroke="#5b6b7c" stroke-dasharray="6 4" marker-end="url(#m5)"/>
+</g>
+<g font-size="13.5" font-weight="600">
+<text x="339" y="148" fill="#1f3a5f" text-anchor="middle">Personalizer:</text>
+<text x="339" y="166" fill="#1f3a5f" text-anchor="middle">write ID, set AFI, lock</text>
+<text x="710" y="158" fill="#2e7d4f" text-anchor="middle">Check-out (kiosk or counter)</text>
+<text x="710" y="300" fill="#0b7a83" text-anchor="middle">Check-in (book-drop or counter)</text>
+<text x="490" y="350" font-size="13" fill="#b86e00" text-anchor="end">Handheld inventory</text>
+<text x="550" y="350" font-size="13" fill="#0b7a83">Found later</text>
+<text x="710" y="468" font-size="13" fill="#b3261e" text-anchor="middle">Written off</text>
+<text x="912" y="360" fill="#b3261e">Lost on loan</text>
+<text x="300" y="400" fill="#5b6b7c">Read failure</text>
+<text x="150" y="360" fill="#5b6b7c" text-anchor="end">New tag</text>
+</g>
+<rect x="40" y="570" width="1120" height="150" rx="10" fill="#f6f8fb" stroke="#d5dde6" stroke-width="1"/>
+<text x="60" y="602" font-size="16" fill="#1f3a5f" font-weight="700">Rules that keep the states consistent</text>
+<g font-size="14">
+<text x="60" y="630">The library system is the source of truth for loans. The tag only carries the security state the gate needs.</text>
+<text x="60" y="656">Every state change on the tag is written and then read back. If the read-back fails, the change is not committed.</text>
+<text x="60" y="682">Personalizing locks the item-ID blocks, so a tag cannot be rewritten to impersonate another item.</text>
+</g>
+<text x="1160" y="744" font-size="12" fill="#5b6b7c" text-anchor="end">Mohammed Mahyoub, RFID Library Automation System (ISO/IEC 15693)</text>
+</svg>

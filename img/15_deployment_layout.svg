@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 820" width="1200" height="820" fill="#1d2733" role="img" aria-label="Deployment layout in the library">
+<title>Deployment layout in the library</title>
+<defs><style>text{font-family:'Segoe UI', Helvetica, Arial, 'Liberation Sans', sans-serif}</style>
+<marker id="m0" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#0b7a83"/></marker>
+<marker id="m1" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#2e7d4f"/></marker>
+<g id="shelf">
+<rect x="300" y="0" width="740" height="26" rx="2" fill="#f6f8fb" stroke="#9aa8b6" stroke-width="1.2"/>
+<path d="M341 0v26M382 0v26M423 0v26M464 0v26M505 0v26M546 0v26M587 0v26M628 0v26M669 0v26M710 0v26M751 0v26M792 0v26M833 0v26M874 0v26M915 0v26M956 0v26M997 0v26" stroke="#d5dde6" stroke-width="1"/>
+</g>
+</defs>
+<rect width="1200" height="820" fill="#ffffff"/>
+<rect x="0" y="0" width="1200" height="6" fill="#1f3a5f"/>
+<text x="40" y="52" font-size="26" font-weight="700">Deployment layout in the library</text>
+<text x="40" y="80" font-size="15" fill="#5b6b7c">Where each RFID station sits along the patron's path (schematic, not to scale)</text>
+<rect x="60" y="120" width="1080" height="640" rx="4" fill="#ffffff" stroke="#1d2733" stroke-width="3"/>
+<rect x="520" y="752" width="160" height="16" fill="#ffffff"/>
+<text x="600" y="795" font-size="14" font-weight="700" text-anchor="middle">Entrance / exit</text>
+
+<use xlink:href="#shelf" href="#shelf" transform="translate(0,160)"/>
+<use xlink:href="#shelf" href="#shelf" transform="translate(0,240)"/>
+<use xlink:href="#shelf" href="#shelf" transform="translate(0,320)"/>
+<use xlink:href="#shelf" href="#shelf" transform="translate(0,400)"/>
+<text x="670" y="150" font-size="14" font-weight="700" text-anchor="middle">Stacks</text>
+<circle cx="470" cy="226" r="14" fill="#e3f3f4" stroke="#0b7a83" stroke-width="1.8"/>
+<text x="470" y="231" font-size="13" fill="#0b7a83" font-weight="700" text-anchor="middle">H</text>
+<path d="M 490 226 H 640" fill="none" stroke="#0b7a83" stroke-width="1.6" stroke-dasharray="5 4" marker-end="url(#m0)"/>
+<text x="650" y="231" font-size="13" fill="#0b7a83" font-weight="600">Handheld inventory along each aisle</text>
+
+<rect x="70" y="140" width="190" height="280" rx="6" fill="#e8eef6" stroke="#1f3a5f" stroke-width="1.5"/>
+<text x="165" y="172" font-size="14.5" fill="#1f3a5f" font-weight="700" text-anchor="middle">Back office</text>
+<rect x="90" y="190" width="150" height="64" rx="5" fill="#ffffff" stroke="#0b7a83" stroke-width="1.5"/>
+<text x="165" y="218" font-size="13.5" fill="#0b7a83" font-weight="700" text-anchor="middle">Personalizer</text>
+<text x="165" y="238" font-size="12" fill="#5b6b7c" text-anchor="middle">tag new items</text>
+<rect x="90" y="270" width="150" height="64" rx="5" fill="#ffffff" stroke="#1f3a5f" stroke-width="1.5"/>
+<text x="165" y="298" font-size="13.5" fill="#1f3a5f" font-weight="700" text-anchor="middle">Host PC</text>
+<text x="165" y="318" font-size="12" fill="#5b6b7c" text-anchor="middle">middleware + DB</text>
+<text x="165" y="372" font-size="12.5" fill="#5b6b7c" text-anchor="middle">LMS link</text>
+<path d="M 240 302 H 280 V 555 H 300" fill="none" stroke="#1f3a5f" stroke-width="1.4" stroke-dasharray="2 4"/>
+
+<rect x="300" y="520" width="220" height="70" rx="6" fill="#e3f3f4" stroke="#0b7a83" stroke-width="1.5"/>
+<text x="410" y="552" font-size="14" fill="#0b7a83" font-weight="700" text-anchor="middle">Staff counter</text>
+<text x="410" y="572" font-size="12.5" fill="#5b6b7c" text-anchor="middle">pad reader</text>
+<rect x="760" y="530" width="70" height="60" rx="6" fill="#e3f3f4" stroke="#0b7a83" stroke-width="1.5"/>
+<text x="795" y="565" font-size="13.5" fill="#0b7a83" font-weight="700" text-anchor="middle">K1</text>
+<rect x="860" y="530" width="70" height="60" rx="6" fill="#e3f3f4" stroke="#0b7a83" stroke-width="1.5"/>
+<text x="895" y="565" font-size="13.5" fill="#0b7a83" font-weight="700" text-anchor="middle">K2</text>
+<text x="945" y="556" font-size="14" fill="#0b7a83" font-weight="700">Self-service</text>
+<text x="945" y="575" font-size="14" fill="#0b7a83" font-weight="700">kiosks</text>
+
+<rect x="70" y="650" width="140" height="90" rx="6" fill="#e3f3f4" stroke="#0b7a83" stroke-width="1.5"/>
+<text x="140" y="690" font-size="14" fill="#0b7a83" font-weight="700" text-anchor="middle">Book-drop</text>
+<text x="140" y="710" font-size="12.5" fill="#5b6b7c" text-anchor="middle">through the wall</text>
+
+<g fill="#fbf1e1" stroke="#b86e00" stroke-width="1.6">
+<rect x="513" y="670" width="14" height="80" rx="3"/>
+<rect x="593" y="670" width="14" height="80" rx="3"/>
+<rect x="673" y="670" width="14" height="80" rx="3"/>
+</g>
+<text x="496" y="700" font-size="14" fill="#b86e00" font-weight="700" text-anchor="end">Security gates</text>
+<text x="496" y="719" font-size="12.5" fill="#5b6b7c" text-anchor="end">two aisles</text>
+
+<g fill="none" stroke="#2e7d4f" stroke-width="2.4" stroke-dasharray="8 6" marker-end="url(#m1)">
+<path d="M 560 745 C 560 600, 560 520, 590 432"/>
+<path d="M 650 432 C 700 480, 760 470, 790 526"/>
+<path d="M 770 592 C 700 640, 640 640, 640 745"/>
+</g>
+<circle cx="548" cy="640" r="12" fill="#2e7d4f"/>
+<circle cx="728" cy="470" r="12" fill="#2e7d4f"/>
+<circle cx="672" cy="640" r="12" fill="#2e7d4f"/>
+<g font-size="12.5" fill="#ffffff" font-weight="700" text-anchor="middle">
+<text x="548" y="644.5">1</text><text x="728" y="474.5">2</text><text x="672" y="644.5">3</text>
+</g>
+<g font-size="13.5" fill="#2e7d4f" font-weight="600">
+<text x="880" y="630">Patron path:</text>
+<text x="880" y="650">1  enter through the gates</text>
+<text x="880" y="670">2  browse, then borrow at a kiosk</text>
+<text x="880" y="690">3  leave: gates stay quiet for</text>
+<text x="896" y="710">items that were checked out</text>
+</g>
+<text x="1160" y="806" font-size="12" fill="#5b6b7c" text-anchor="end">Mohammed Mahyoub, RFID Library Automation System (ISO/IEC 15693)</text>
+</svg>

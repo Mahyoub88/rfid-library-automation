@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" width="1200" height="760" fill="#1d2733" role="img" aria-label="The 13.56 MHz RF link">
+<title>The 13.56 MHz RF link</title>
+<defs><style>text{font-family:'Segoe UI', Helvetica, Arial, 'Liberation Sans', sans-serif}.m{font-family:Consolas, 'DejaVu Sans Mono', monospace}</style></defs>
+<rect width="1200" height="760" fill="#ffffff"/>
+<rect x="0" y="0" width="1200" height="6" fill="#1f3a5f"/>
+<text x="40" y="52" font-size="26" font-weight="700" fill="#1d2733">The 13.56 MHz RF link</text>
+<text x="40" y="80" font-size="15" fill="#5b6b7c">How a passive ISO/IEC 15693 tag is powered and how data moves each way</text>
+<rect x="50" y="140" width="230" height="300" rx="8" fill="#e8eef6" stroke="#1f3a5f" stroke-width="1.5"/>
+<text x="64" y="166" font-size="16" fill="#1f3a5f" font-weight="700">Reader</text>
+<text x="66" y="200" font-size="13.5">Oscillator 13.56 MHz</text>
+<text x="66" y="234" font-size="13.5">Modulator (ASK)</text>
+<text x="66" y="268" font-size="13.5">Demodulator</text>
+<text x="66" y="302" font-size="13.5">MCU + RS-232</text>
+<text x="66" y="352" font-size="12.5" fill="#5b6b7c">Range depends on antenna</text>
+<text x="66" y="370" font-size="12.5" fill="#5b6b7c">size and power: centimetres</text>
+<text x="66" y="388" font-size="12.5" fill="#5b6b7c">at a pad, up to about a</text>
+<text x="66" y="406" font-size="12.5" fill="#5b6b7c">metre across a gate aisle.</text>
+<ellipse cx="370" cy="290" rx="16" ry="95" fill="none" stroke="#1f3a5f" stroke-width="2.4"/>
+<ellipse cx="377" cy="290" rx="16" ry="95" fill="none" stroke="#1f3a5f" stroke-width="2.4"/>
+<ellipse cx="384" cy="290" rx="16" ry="95" fill="none" stroke="#1f3a5f" stroke-width="2.4"/>
+<ellipse cx="391" cy="290" rx="16" ry="95" fill="none" stroke="#1f3a5f" stroke-width="2.4"/>
+<ellipse cx="398" cy="290" rx="16" ry="95" fill="none" stroke="#1f3a5f" stroke-width="2.4"/>
+<line x1="280" y1="230" x2="358" y2="230" stroke="#1f3a5f" stroke-width="2"/>
+<line x1="280" y1="350" x2="358" y2="350" stroke="#1f3a5f" stroke-width="2"/>
+<text x="385" y="410" font-size="13" fill="#1f3a5f" font-weight="600" text-anchor="middle">Reader antenna coil</text>
+<path d="M 420 257 C 560 194, 700 194, 800 266" fill="none" stroke="#0b7a83" stroke-width="1.6" stroke-dasharray="6 5" opacity="0.9"/>
+<path d="M 420 323 C 560 386, 700 386, 800 314" fill="none" stroke="#0b7a83" stroke-width="1.6" stroke-dasharray="6 5" opacity="0.9"/>
+<path d="M 420 237.75 C 560 138, 700 138, 800 252" fill="none" stroke="#0b7a83" stroke-width="1.6" stroke-dasharray="6 5" opacity="0.7"/>
+<path d="M 420 342.25 C 560 442, 700 442, 800 328" fill="none" stroke="#0b7a83" stroke-width="1.6" stroke-dasharray="6 5" opacity="0.7"/>
+<path d="M 420 218.5 C 560 82, 700 82, 800 238" fill="none" stroke="#0b7a83" stroke-width="1.6" stroke-dasharray="6 5" opacity="0.5"/>
+<path d="M 420 361.5 C 560 498, 700 498, 800 342" fill="none" stroke="#0b7a83" stroke-width="1.6" stroke-dasharray="6 5" opacity="0.5"/>
+<text x="610" y="150" font-size="14" fill="#0b7a83" font-weight="700" text-anchor="middle">Magnetic near field (H-field)</text>
+<rect x="810" y="200" width="170" height="180" rx="10" fill="#ffffff" stroke="#0b7a83" stroke-width="2"/>
+<rect x="822" y="212" width="146" height="156" rx="6" fill="none" stroke="#0b7a83" stroke-width="1.4"/>
+<rect x="834" y="224" width="122" height="132" rx="6" fill="none" stroke="#0b7a83" stroke-width="1.4"/>
+<rect x="846" y="236" width="98" height="108" rx="6" fill="none" stroke="#0b7a83" stroke-width="1.4"/>
+<rect x="858" y="248" width="74" height="84" rx="6" fill="none" stroke="#0b7a83" stroke-width="1.4"/>
+<rect x="875" y="270" width="40" height="40" rx="3" fill="#0b7a83" stroke="#0b7a83" stroke-width="1.5"/>
+<text x="895" y="295" font-size="13" fill="#fff" font-weight="700" text-anchor="middle">IC</text>
+<text x="895" y="405" font-size="13" fill="#0b7a83" font-weight="600" text-anchor="middle">Tag: coil + chip</text>
+<rect x="1010" y="140" width="160" height="300" rx="8" fill="#e3f3f4" stroke="#0b7a83" stroke-width="1.5"/>
+<text x="1024" y="166" font-size="16" fill="#0b7a83" font-weight="700">Tag chip</text>
+<text x="1024" y="200" font-size="13">Rectifier → DC supply</text>
+<text x="1024" y="234" font-size="13">Clock from carrier</text>
+<text x="1024" y="268" font-size="13">Load-modulation</text>
+<text x="1024" y="302" font-size="13">switch</text>
+<text x="1024" y="336" font-size="13">Memory: UID, AFI,</text>
+<text x="1024" y="370" font-size="13">user blocks</text>
+<rect x="50" y="480" width="530" height="230" rx="10" fill="#f6f8fb" stroke="#d5dde6" stroke-width="1"/>
+<text x="70" y="510" font-size="16" fill="#1f3a5f" font-weight="700">Downlink: reader → tag</text>
+<text x="70" y="538" font-size="13.5">Amplitude-shift keying of the carrier,</text>
+<text x="70" y="556.2" font-size="13.5">10 % or 100 % modulation depth</text>
+<text x="70" y="574.5" font-size="13.5">Pulse-position coding: 1-of-4 (26.48 kbit/s)</text>
+<text x="70" y="592.7" font-size="13.5">or 1-of-256 (1.65 kbit/s)</text>
+<polyline points="70,648 74,629 78,625 82,638 86,659 90,671 94,667 98,648 102,629 106,625 110,638 114,659 118,672 122,666 126,647 130,629 134,625 138,638 142,659 146,672 150,666 154,647 158,628 162,625 166,639 170,660 174,672 178,666 182,646 186,628 190,625 194,639 198,660 202,672 206,665 210,646 214,628 218,625 222,640 226,660 230,672 234,665 238,646 242,628 246,625 250,645 254,652 258,656 262,654 266,647 270,641 274,640 278,645 282,653 286,656 290,654 294,647 298,641 302,626 306,641 310,661 314,672 318,664 322,644 326,627 330,626 334,641 338,662 342,672 346,664 350,644 354,627 358,626 362,642 366,662 370,672 374,664 378,644 382,627 386,626 390,646 394,653 398,656 402,653 406,646 410,641 414,640 418,646 422,653 426,656 430,653 434,646 438,640 442,626 446,643 450,663 454,672 458,663 462,642 466,626 470,627 474,643 478,663 482,672 486,662 490,642 494,626 498,627 502,643 506,664 510,672 514,662 518,642 522,626 526,627 530,644" fill="none" stroke="#1f3a5f" stroke-width="1.2"/>
+<text x="272" y="700" font-size="12" fill="#5b6b7c" text-anchor="middle">modulation pause</text>
+<rect x="620" y="480" width="550" height="230" rx="10" fill="#f6f8fb" stroke="#d5dde6" stroke-width="1"/>
+<text x="640" y="510" font-size="16" fill="#0b7a83" font-weight="700">Uplink: tag → reader</text>
+<text x="640" y="538" font-size="13.5">Load modulation: the tag switches a load on</text>
+<text x="640" y="556.2" font-size="13.5">its coil, which the reader sees as a change</text>
+<text x="640" y="574.5" font-size="13.5">Subcarrier 423.75 kHz (fc / 32), Manchester coded</text>
+<text x="640" y="592.7" font-size="13.5">High data rate 26.48 kbit/s</text>
+<polyline points="640,648 644,629 648,625 652,638 656,659 660,671 664,667 668,648 672,629 676,625 680,638 684,659 688,672 692,666 696,648 700,636 704,634 708,642 712,655 716,662 720,659 724,647 728,636 732,634 736,643 740,655 744,662 748,659 752,646 756,628 760,625 764,639 768,660 772,672 776,665 780,646 784,628 788,625 792,640 796,660 800,672 804,665 808,647 812,636 816,634 820,643 824,656 828,662 832,658 836,646 840,636 844,634 848,643 852,656 856,662 860,658 864,645 868,627 872,626 876,641 880,661 884,672 888,664 892,644 896,627 900,626 904,641 908,662 912,672 916,664 920,646 924,635 928,635 932,644 936,656 940,662 944,657 948,645 952,635 956,635 960,644 964,657 968,662 972,657 976,643 980,627 984,626 988,642 992,663 996,672 1000,663 1004,643 1008,626 1012,626 1016,643 1020,663 1024,672 1028,663 1032,645 1036,635 1040,635 1044,645 1048,657 1052,662 1056,657 1060,644 1064,635 1068,635 1072,645 1076,657 1080,662 1084,656 1088,642 1092,626 1096,627 1100,644 1104,664 1108,672 1112,662 1116,641 1120,626" fill="none" stroke="#0b7a83" stroke-width="1.2"/>
+<text x="880" y="700" font-size="12" fill="#5b6b7c" text-anchor="middle">small amplitude steps at the subcarrier rate</text>
+<text x="1160" y="744" font-size="12" fill="#5b6b7c" text-anchor="end">Mohammed Mahyoub, RFID Library Automation System (ISO/IEC 15693)</text>
+</svg>
