@@ -1,5 +1,13 @@
 # RFID Library Automation System (ISO 15693)
 
+## Illustrated engineering guide
+
+[Read the full engineering guide](docs/engineering-guide.md) for architecture, workflow, design rationale, evidence notes and the source gallery.
+
+![Engineering overview](docs/overview/architecture.svg)
+
+*Explanatory diagram added for this write-up.*
+
 Implemented a radio-frequency identification (RFID) system for library automation. Each item carries a tag, readers identify items over RF without line of sight, and a host database records every transaction. This replaces manual handling and barcode scanning for check-in/out, security and inventory.
 
 ## Role
