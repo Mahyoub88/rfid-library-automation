@@ -262,6 +262,14 @@ RFID, ISO/IEC 15693, ISO 28560, 13.56 MHz HF, inductive coupling, slotted antico
 
 ## Links
 
-- [Portfolio project](https://mahyoub88.github.io/#proj-rfid-study)
+- [Portfolio project](https://mahyoub88.github.io/projects/proj-rfid-study/)
 - [Author on LinkedIn](https://www.linkedin.com/in/mohammed-mahyoub)
 - [ORCID](https://orcid.org/0009-0003-5640-352X)
+
+## Illustrated project pages
+
+Project-specific diagrams, source media and implementation context:
+
+- [RFID Library Automation System (ISO 15693)](https://mahyoub88.github.io/projects/proj-rfid-study/)
+
+[Browse all engineering case studies](https://mahyoub88.github.io/projects/)
