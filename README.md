@@ -1,12 +1,7 @@
 # RFID Library Automation System (ISO 15693)
 
-## Illustrated engineering guide
+[Read case study](https://mahyoub88.github.io/projects/proj-rfid-study/) · [Project index](docs/PROJECTS.md) · [Engineering guide](docs/engineering-guide.md)
 
-[Read the full engineering guide](docs/engineering-guide.md) for architecture, workflow, design rationale, evidence notes and the source gallery.
-
-![Engineering overview](docs/overview/architecture.svg)
-
-*Explanatory diagram added for this write-up.*
 
 Implemented a radio-frequency identification (RFID) system for library automation. Each item carries a tag, readers identify items over RF without line of sight, and a host database records every transaction. This replaces manual handling and barcode scanning for check-in/out, security and inventory.
 
@@ -266,13 +261,6 @@ RFID, ISO/IEC 15693, ISO 28560, 13.56 MHz HF, inductive coupling, slotted antico
 - [Author on LinkedIn](https://www.linkedin.com/in/mohammed-mahyoub)
 - [ORCID](https://orcid.org/0009-0003-5640-352X)
 
-## Illustrated project pages
-
-Project-specific diagrams, source media and implementation context:
-
-- [RFID Library Automation System (ISO 15693)](https://mahyoub88.github.io/projects/proj-rfid-study/)
-
-[Browse all engineering case studies](https://mahyoub88.github.io/projects/)
 
 ## Additional technical explanation
 
